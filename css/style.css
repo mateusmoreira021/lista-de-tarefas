@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: #00b7ff;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    width: 620px;
+    height: 100%;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: #00b7ff;
+    color: #fff;
+}
+
+.delete-btn{
+    border: none;
+    margin: 0 20px;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fa3d4d;
+    color: #fff;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.ul-tarefas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+li{
+    margin-top: 30px;
+}
+
+.input{
+    height: 50px;
+    font-size: 21px;
+    padding: 20px;
+    border: none;
+}
+
+.input:focus{
+    outline: none;
+}
+
+ul{
+    list-style-type: none;
+}
